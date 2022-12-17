@@ -24,7 +24,7 @@ st.subheader('Métricas de Avaliação')
 st.markdown('''Ao ser feita a contagem de todos esses termos e obter a matriz de confusão, é possível calcular métricas de avaliação para a classificação. ''')
 st.image('https://miro.medium.com/max/720/1*t1vf-ofJrJqtmam0KSn3EQ.webp')
 
-av_desempenho = pd.read_excel('C:/Users/lucas/Documents/Projetos/TCC/Data_set/dados de avaliação.xlsx', sheet_name=1)
+av_desempenho = pd.read_excel('dados de avaliação.xlsx', sheet_name=1)
 av_desempenho = av_desempenho.loc[0:2]
 
 st.subheader('Tabela de Paramentros')

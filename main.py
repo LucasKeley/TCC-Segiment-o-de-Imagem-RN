@@ -11,7 +11,7 @@ st.markdown('''
 Para entender melhor cada métrica, primeiro é necessário entender alguns conceitos.
 Uma matriz de confusão é uma tabela que indica os erros e acertos do seu modelo, comparando com o resultado esperado (ou etiquetas/labels). A imagem abaixo demonstra um exemplo de uma matriz de confusão.
 ''')
-st.image('https://miro.medium.com/max/720/1*s7VB26Cfo1LdVZcLou-e0g.webp')
+st.image('https://miro.medium.com/max/720/1*s7VB26Cfo1LdVZcLou-e0g.webp', width=500)
 
 st.markdown('''
 * Verdadeiros Positivos: classificação correta da classe Positivo;
@@ -22,7 +22,7 @@ st.markdown('''
 
 st.subheader('Métricas de Avaliação')
 st.markdown('''Ao ser feita a contagem de todos esses termos e obter a matriz de confusão, é possível calcular métricas de avaliação para a classificação. ''')
-st.image('https://miro.medium.com/max/720/1*t1vf-ofJrJqtmam0KSn3EQ.webp')
+st.image('https://miro.medium.com/max/720/1*t1vf-ofJrJqtmam0KSn3EQ.webp', width=500)
 
 av_desempenho = pd.read_excel('dados de avaliação.xlsx', sheet_name=1)
 av_desempenho = av_desempenho.loc[0:2]
